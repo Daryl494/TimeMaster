@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_marginStart="20dp"
-    android:layout_marginLeft="20dp"
+    android:background="@color/bg"
     tools:context=".Features.ScheduleActivity">
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -174,8 +173,8 @@
         android:layout_marginStart="20dp"
         android:layout_marginLeft="20sp"
         android:layout_marginTop="30dp"
-        android:ems="10"
         android:autofillHints=""
+        android:ems="10"
         android:hint="@string/TimeInput"
         android:inputType="textPersonName"
         app:layout_constraintStart_toEndOf="@+id/ScheduleTime"
